@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H/4C9yjz8a8=",
+  "dgSpecHash": "8qVP/9c1838=",
   "success": true,
-  "projectFilePath": "C:\\Objetos\\Software\\Filminhos.NET-CRUD\\Filminhos.NET-CRUD\\Filminhos.NET\\Filminhos.NET\\Filminhos.NET.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET\\Filminhos.NET.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
