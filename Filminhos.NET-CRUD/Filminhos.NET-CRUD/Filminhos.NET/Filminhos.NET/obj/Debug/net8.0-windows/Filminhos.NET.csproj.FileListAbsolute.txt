@@ -1,0 +1,107 @@
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.exe
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.deps.json
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.runtimeconfig.json
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.pdb
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.PaginaHome.resources
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.GenerateResource.cache
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.AssemblyInfoInputs.cache
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.AssemblyInfo.cs
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.CoreCompileInputs.cache
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\refint\Filminhos.NET.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.pdb
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.genruntimeconfig.cache
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\ref\Filminhos.NET.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.AssemblyReference.cache
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.PaginaCadastro.resources
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.PaginaLogin.resources
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminho.F38EED0D.Up2Date
+C:\Users\kauan\Kauan Academico\PASTA DO ALUNO\4 semestre\Programação Orientada a Objeto\PROJETO\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.Properties.Resources.resources
+C:\Users\mcris\OneDrive\Área de Trabalho\Filminhos.NET-20251122T114432Z-1-001\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.AssemblyReference.cache
+C:\Users\mcris\OneDrive\Área de Trabalho\Filminhos.NET-20251122T114432Z-1-001\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.dll
+C:\Users\mcris\OneDrive\Área de Trabalho\Filminhos.NET-20251122T114432Z-1-001\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\refint\Filminhos.NET.dll
+C:\Users\mcris\OneDrive\Área de Trabalho\Filminhos.NET-20251122T114432Z-1-001\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.pdb
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\refint\Filminhos.NET.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.pdb
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.exe
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.deps.json
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.runtimeconfig.json
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.pdb
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.Properties.Resources.resources
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminho.F38EED0D.Up2Date
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.genruntimeconfig.cache
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\ref\Filminhos.NET.dll
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.FormCadastroFilme.resources
+C:\Users\victo\OneDrive\Documentos\IntegrarProjeto\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.PaginaHome.resources
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.exe
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.dll.config
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.deps.json
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.runtimeconfig.json
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Filminhos.NET.pdb
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.AssemblyReference.cache
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.FormCadastroFilme.resources
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.PaginaHome.resources
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.Properties.Resources.resources
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.GenerateResource.cache
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.AssemblyInfoInputs.cache
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.AssemblyInfo.cs
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.csproj.CoreCompileInputs.cache
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminho.F38EED0D.Up2Date
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\refint\Filminhos.NET.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.pdb
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.genruntimeconfig.cache
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\ref\Filminhos.NET.dll
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.PaginaLogin.resources
+C:\Objetos\Software\Filminhos.NET-CRUD\Filminhos.NET-CRUD\Filminhos.NET\Filminhos.NET\obj\Debug\net8.0-windows\Filminhos.NET.PaginaCadastro.resources
