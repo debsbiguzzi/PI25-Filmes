@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET\\Filminhos.NET.csproj": {}
+    "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET\\Filminhos.NET.csproj": {
+    "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET\\Filminhos.NET.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET.csproj",
         "projectName": "Filminhos.NET",
-        "projectPath": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET\\Filminhos.NET.csproj",
+        "projectPath": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[9.5.0, )"

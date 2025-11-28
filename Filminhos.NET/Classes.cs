@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DotNetEnv;
 
 namespace Filminhos.NET
 {
@@ -61,7 +62,8 @@ namespace Filminhos.NET
 
             public AcessoBD()
             {
-                connectionString = Properties.Settings.Default.DatabaseConnection;
+                Env.Load();
+                connectionString = Env.GetString("DB_CONNECTION_STRING");
                 connection = new MySqlConnection(connectionString);
                 OpenConexaoBD(connectionString);
             }
