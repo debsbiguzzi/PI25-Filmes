@@ -76,7 +76,7 @@ namespace Filminhos.NET
 
             List<string> generos = BD.getGeneros();
 
-            cbFiltroGenero.Items.Add("Genêros");
+            cbFiltroGenero.Items.Add("Genï¿½ros");
 
             foreach (string genero in generos)
             {
@@ -143,7 +143,7 @@ namespace Filminhos.NET
                 {
                     if (BD.ExcluirFilme(form.codigo))
                     {
-                        MessageBox.Show("Filme excluído com sucesso!");
+                        MessageBox.Show("Filme excluï¿½do com sucesso!");
                         iniciarGrid();
                     }
                     else
@@ -163,16 +163,17 @@ namespace Filminhos.NET
         {
             FormCadastroFilme form = new FormCadastroFilme();
             form.lblTituloTela.Text = "Cadastrar Novo Filme";
-            form.codigo = -1; // Garante que é novo
+            form.codigo = -1; // Garante que ï¿½ novo
 
-            // Abre a janela como um diálogo (trava a janela de trás)
+            // Abre a janela como um diï¿½logo (trava a janela de trï¿½s)
             form.ShowDialog();
 
             // Quando a janela fechar, atualiza o grid para mostrar o novo filme
             iniciarGrid();
+            
         }
 
-        // Botão EDITAR FILME
+        // Botï¿½o EDITAR FILME
         private void btnEditar_Click(object sender, EventArgs e)
         {
             // Verifica se tem algo selecionado
@@ -184,18 +185,18 @@ namespace Filminhos.NET
                 FormCadastroFilme form = new FormCadastroFilme();
                 form.lblTituloTela.Text = "Editar Filme";
 
-                // === PASSAGEM DE DADOS PARA O FORMULÁRIO ===
+                // === PASSAGEM DE DADOS PARA O FORMULï¿½RIO ===
                 // Recupera o ID (lembre-se de ter adicionado o ID na query do GetAllItems, mesmo oculto)
                 form.codigo = Convert.ToInt32(linha.Cells["codigo"].Value);
 
-                // Preenche os campos do formulário com os dados do grid
+                // Preenche os campos do formulï¿½rio com os dados do grid
                 form.txtTitulo.Text = linha.Cells["Titulo"].Value.ToString();
                 form.txtAno.Text = linha.Cells["Ano de Lancamento"].Value.ToString();
-                form.txtDuracao.Text = linha.Cells["Duração"].Value.ToString();
+                form.txtDuracao.Text = linha.Cells["Duraï¿½ï¿½o"].Value.ToString();
                 form.numBilheteria.Text = linha.Cells["Bilheteria"].Value.ToString();
-                form.numAvaliacao.Text = linha.Cells["Avaliação"].Value.ToString();
+                form.numAvaliacao.Text = linha.Cells["Avaliaï¿½ï¿½o"].Value.ToString();
 
-                // Nota: Para o gênero aparecer selecionado, você precisaria trazer o id_genero 
+                // Nota: Para o gï¿½nero aparecer selecionado, vocï¿½ precisaria trazer o id_genero 
                 // no Grid (oculto) e fazer: form.cbGenero.SelectedValue = linha.Cells["id_gen"].Value;
 
                 form.ShowDialog();
