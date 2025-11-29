@@ -30,23 +30,27 @@ namespace Filminhos.NET
                 pbxPoster.Load(link);
                 pbxPoster.SizeMode = PictureBoxSizeMode.Zoom;
             }
-            catch (WebException ex)
+            catch (WebException)
             {
                 pbxPoster.Image = System.Drawing.Image.FromFile("..\\..\\..\\posterfixo.png");
                 return;
             }
         }
 
+        //Inicia a tabela com todos os filmes (view)
         public void iniciarGrid()
         {
+            //Auto generate columns true para criar colunas automaticamente
             dataGridView1.AutoGenerateColumns = true;
             dataGridView1.DataSource = BD.GetAllItems();
 
+            //Nao mostra a coluna link_poster
             if (dataGridView1.Columns.Contains("link_poster"))
             {
                 dataGridView1.Columns["link_poster"].Visible = false;
-            }    
+            }
 
+            //Mostra a coluna codigo (id do filme)
             if (dataGridView1.Columns.Contains("codigo"))
                 dataGridView1.Columns["codigo"].Visible = true;
         }
@@ -70,13 +74,15 @@ namespace Filminhos.NET
                 dataGridView1.Columns["codigo"].Visible = true;
         }
 
+        //Inicia o combobox de filtro de genero
+        //Pega do banco de dados a tabela de generos e adiciona no combobox
         public void IniciarCbxFiltro()
         {
             cbFiltroGenero.Items.Clear();
-
+            
             List<string> generos = BD.getGeneros();
 
-            cbFiltroGenero.Items.Add("Gen�ros");
+            cbFiltroGenero.Items.Add("Generos");
 
             foreach (string genero in generos)
             {
@@ -100,6 +106,7 @@ namespace Filminhos.NET
 
         }
 
+        //Ao clicar em uma celula da tabela, carrega o poster do filme
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -108,8 +115,6 @@ namespace Filminhos.NET
 
                 string link = row.Cells["link_poster"].Value.ToString();
                 CarregarPoster(link);
-
-
             }
         }
 
@@ -118,12 +123,9 @@ namespace Filminhos.NET
             string pesquisa = txbPesquisa.Text;
             int genero = cbFiltroGenero.SelectedIndex;
 
-            //string cmd = "call SP_PESQUISAR_FILMES( '" + pesquisa + "', null)";
             DataTable Resultado = BD.pesquisar(pesquisa, genero);
 
             iniciarGrid(Resultado);
-
-
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
@@ -173,7 +175,6 @@ namespace Filminhos.NET
             
         }
 
-        // Bot�o EDITAR FILME
         private void btnEditar_Click(object sender, EventArgs e)
         {
             // Verifica se tem algo selecionado
@@ -185,11 +186,9 @@ namespace Filminhos.NET
                 FormCadastroFilme form = new FormCadastroFilme();
                 form.lblTituloTela.Text = "Editar Filme";
 
-                // === PASSAGEM DE DADOS PARA O FORMUL�RIO ===
-                // Recupera o ID (lembre-se de ter adicionado o ID na query do GetAllItems, mesmo oculto)
                 form.codigo = Convert.ToInt32(linha.Cells["codigo"].Value);
 
-                // Preenche os campos do formul�rio com os dados do grid
+                // Preenche os campos do formulario com os dados do grid
                 form.txtTitulo.Text = linha.Cells["Titulo"].Value.ToString();
                 form.txtAno.Text = linha.Cells["Ano de Lancamento"].Value.ToString();
                 form.txtDuracao.Text = linha.Cells["Dura��o"].Value.ToString();
