@@ -17,6 +17,7 @@ namespace Filminhos.NET
 {
     public partial class PaginaHome : Form
     {
+        private readonly bool isAdmin;
 
         public void CarregarPoster(string link)
         {
@@ -97,13 +98,26 @@ namespace Filminhos.NET
 
         ConexaoBD BD = new ConexaoBD();
 
-
-        public PaginaHome()
+        // Updated constructor: pass isAdmin flag (default false so existing code still works)
+        public PaginaHome(bool isAdmin = false)
         {
             InitializeComponent();
+            this.isAdmin = isAdmin;
+
+            // Configure UI based on role before loading data (so buttons start disabled if not admin)
+            ConfigureAdminControls();
+
             iniciarGrid();
             IniciarCbxFiltro();
+        }
 
+        // Enable/disable admin-only controls
+        private void ConfigureAdminControls()
+        {
+            // If you prefer to hide them replace Enabled with Visible
+            btnExcluir.Enabled = isAdmin;
+            btnNovo.Enabled = isAdmin;
+            btnEditar.Enabled = isAdmin;
         }
 
         //Ao clicar em uma celula da tabela, carrega o poster do filme
@@ -145,7 +159,7 @@ namespace Filminhos.NET
                 {
                     if (BD.ExcluirFilme(form.codigo))
                     {
-                        MessageBox.Show("Filme exclu�do com sucesso!");
+                        MessageBox.Show("Filme excluído com sucesso!");
                         iniciarGrid();
                     }
                     else
@@ -163,11 +177,12 @@ namespace Filminhos.NET
 
         private void btnNovo_Click(object sender, EventArgs e)
         {
+            
             FormCadastroFilme form = new FormCadastroFilme();
             form.lblTituloTela.Text = "Cadastrar Novo Filme";
-            form.codigo = -1; // Garante que � novo
+            form.codigo = -1; // Garante que é novo
 
-            // Abre a janela como um di�logo (trava a janela de tr�s)
+            // Abre a janela como um diálogo (trava a janela de trás)
             form.ShowDialog();
 
             // Quando a janela fechar, atualiza o grid para mostrar o novo filme
@@ -191,11 +206,11 @@ namespace Filminhos.NET
                 // Preenche os campos do formulario com os dados do grid
                 form.txtTitulo.Text = linha.Cells["Titulo"].Value.ToString();
                 form.txtAno.Text = linha.Cells["Ano de Lancamento"].Value.ToString();
-                form.txtDuracao.Text = linha.Cells["Dura��o"].Value.ToString();
+                form.txtDuracao.Text = linha.Cells["Duração"].Value.ToString();
                 form.numBilheteria.Text = linha.Cells["Bilheteria"].Value.ToString();
-                form.numAvaliacao.Text = linha.Cells["Avalia��o"].Value.ToString();
+                form.numAvaliacao.Text = linha.Cells["Avaliação"].Value.ToString();
 
-                // Nota: Para o g�nero aparecer selecionado, voc� precisaria trazer o id_genero 
+                // Nota: Para o gênero aparecer selecionado, você precisaria trazer o id_genero 
                 // no Grid (oculto) e fazer: form.cbGenero.SelectedValue = linha.Cells["id_gen"].Value;
 
                 form.ShowDialog();

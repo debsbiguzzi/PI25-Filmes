@@ -18,7 +18,6 @@ namespace Filminhos.NET
         public PaginaLogin()
         {
             InitializeComponent();
-            Env.Load();
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)

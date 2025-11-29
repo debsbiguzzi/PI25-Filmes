@@ -10,17 +10,32 @@ using DotNetEnv;
 
 namespace Filminhos.NET
 {
+    // Simple user model
+    public class Usuario
+    {
+        public int Id { get; init; }
+        public string Nome { get; init; } = string.Empty;
+        public bool IsAdmin { get; init; }
+    }
+
+    // Session holder for the currently logged user
+    public static class Sessao
+    {
+        public static Usuario? UsuarioAtual { get; set; }
+    }
+
     public class Classes
     {
         public class Sistema
         {
+            // Keep existing behavior for compatibility
             public bool CadastrarUsuario(string nome, string senha)
             {
                 Classes.AcessoBD bd = new Classes.AcessoBD();
-                MySqlConnection con = bd.getMySqlConnection();
+                using MySqlConnection con = bd.getMySqlConnection();
 
                 string sql = "INSERT INTO usuarios (nome, senha) VALUES (@nome, @senha)";
-                MySqlCommand cmd = new MySqlCommand(sql, con);
+                using MySqlCommand cmd = new MySqlCommand(sql, con);
 
                 cmd.Parameters.AddWithValue("@nome", nome);
                 cmd.Parameters.AddWithValue("@senha", senha);
@@ -29,32 +44,50 @@ namespace Filminhos.NET
                 return true;
             }
 
-
+            // Backward-compatible boolean check
             public bool Consultar(string nome, string senha)
             {
-                Env.Load();
-                string adminUser = Env.GetString("ADMIN_USER");
-                string adminPass = Env.GetString("ADMIN_PASS");
-                
-                Classes.AcessoBD bd = new Classes.AcessoBD();
-                MySqlConnection con = bd.getMySqlConnection();
+                var usuario = AutenticarUsuario(nome, senha);
+                return usuario != null;
+            }
 
-                string sql = "SELECT * FROM usuarios WHERE nome = @nome and senha=@senha";
-                MySqlCommand cmd = new MySqlCommand(sql, con);
+            // New: returns a Usuario (and sets Sessao.UsuarioAtual) or null on failure
+            public Usuario? AutenticarUsuario(string nome, string senha)
+            {
+                Env.Load();
+                string adminUser = Env.GetString("ADMIN_USER") ?? string.Empty;
+                string adminPass = Env.GetString("ADMIN_PASS") ?? string.Empty;
+
+                Classes.AcessoBD bd = new Classes.AcessoBD();
+                using MySqlConnection con = bd.getMySqlConnection();
+
+                string sql = "SELECT codigo, nome, senha FROM usuarios WHERE nome = @nome AND senha = @senha";
+                using MySqlCommand cmd = new MySqlCommand(sql, con);
 
                 cmd.Parameters.AddWithValue("@nome", nome);
                 cmd.Parameters.AddWithValue("@senha", senha);
 
-                MySqlDataReader dr = cmd.ExecuteReader();
+                using MySqlDataReader dr = cmd.ExecuteReader();
 
                 if (dr.Read())
                 {
+                    int id = Convert.ToInt32(dr["codigo"]);
+                    string foundName = dr["nome"].ToString() ?? string.Empty;
+
+                    // Determine admin: either matches ENV admin credentials or some DB role (not present)
+                    bool isAdmin = (string.Equals(foundName, adminUser, StringComparison.OrdinalIgnoreCase)
+                                    && string.Equals(senha, adminPass, StringComparison.Ordinal));
+
+                    var usuario = new Usuario { Id = id, Nome = foundName, IsAdmin = isAdmin };
+
                     dr.Close();
-                    return true;
+                    Sessao.UsuarioAtual = usuario;
+                    return usuario;
                 }
 
-                dr.Close();
-                return false;
+                // If not found, make sure session is cleared
+                Sessao.UsuarioAtual = null;
+                return null;
             }
         };
 

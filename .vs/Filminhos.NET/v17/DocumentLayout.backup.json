@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\paginalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|c:\\users\\usuario\\github-project\\pi25-filmes\\filminhos.net\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|c:\\users\\usuario\\github-project\\pi25-filmes\\filminhos.net\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|c:\\users\\usuario\\github-project\\pi25-filmes\\filminhos.net\\paginalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\paginalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|c:\\users\\usuario\\github-project\\pi25-filmes\\filminhos.net\\paginahome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\paginahome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|C:\\Users\\Usuario\\github-project\\PI25-Filmes\\filminhos.net\\paginahome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\paginahome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|c:\\users\\usuario\\github-project\\pi25-filmes\\filminhos.net\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|c:\\users\\usuario\\github-project\\pi25-filmes\\filminhos.net\\filminhos.net.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|c:\\users\\usuario\\github-project\\pi25-filmes\\filminhos.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|c:\\users\\usuario\\github-project\\pi25-filmes\\filminhos.net\\paginahome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\paginahome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|c:\\users\\usuario\\github-project\\pi25-filmes\\filminhos.net\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E7402FED-829E-4AA6-88AE-36E780D9084B}|Filminhos.NET\\Filminhos.NET.csproj|solutionrelative:filminhos.net\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,31 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\.env",
-              "RelativeDocumentMoniker": "Filminhos.NET\\.env",
-              "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\.env",
-              "RelativeToolTip": "Filminhos.NET\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-28T14:02:39.669Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Classes.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Classes.cs",
               "RelativeDocumentMoniker": "Filminhos.NET\\Classes.cs",
               "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Classes.cs",
               "RelativeToolTip": "Filminhos.NET\\Classes.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAmwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAtwC4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T14:05:15.378Z",
               "IsPinned": true,
@@ -70,15 +56,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaginaLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaLogin.cs",
-              "RelativeDocumentMoniker": "Filminhos.NET\\PaginaLogin.cs",
-              "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaLogin.cs [Design]",
-              "RelativeToolTip": "Filminhos.NET\\PaginaLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T15:53:08.705Z",
-              "EditorCaption": " [Design]"
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\.env",
+              "RelativeDocumentMoniker": "Filminhos.NET\\.env",
+              "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\.env",
+              "RelativeToolTip": "Filminhos.NET\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-28T14:02:39.669Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,14 +76,14 @@
               "RelativeDocumentMoniker": "Filminhos.NET\\PaginaLogin.cs",
               "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaLogin.cs",
               "RelativeToolTip": "Filminhos.NET\\PaginaLogin.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowBsAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAIAwwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T15:43:35.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Filminhos.NET.csproj",
               "DocumentMoniker": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET.csproj",
               "RelativeDocumentMoniker": "Filminhos.NET\\Filminhos.NET.csproj",
@@ -103,12 +91,36 @@
               "RelativeToolTip": "Filminhos.NET\\Filminhos.NET.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-28T14:17:26.589Z",
+              "WhenOpened": "2025-11-28T14:17:26.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaginaHome.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaHome.cs",
+              "RelativeDocumentMoniker": "Filminhos.NET\\PaginaHome.cs",
+              "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaHome.cs",
+              "RelativeToolTip": "Filminhos.NET\\PaginaHome.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIAwwBMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T15:21:14.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "PaginaHome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaHome.cs",
+              "RelativeDocumentMoniker": "Filminhos.NET\\PaginaHome.cs",
+              "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaHome.cs [Design]",
+              "RelativeToolTip": "Filminhos.NET\\PaginaHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T16:35:47.339Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Program.cs",
               "RelativeDocumentMoniker": "Filminhos.NET\\Program.cs",
@@ -116,21 +128,7 @@
               "RelativeToolTip": "Filminhos.NET\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T14:08:22.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaginaHome.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaHome.cs",
-              "RelativeDocumentMoniker": "Filminhos.NET\\PaginaHome.cs",
-              "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaHome.cs",
-              "RelativeToolTip": "Filminhos.NET\\PaginaHome.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAAwKoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T15:21:14.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T14:08:22.187Z"
             }
           ]
         }
