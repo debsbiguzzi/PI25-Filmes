@@ -83,9 +83,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(218, 115);
             label2.Name = "label2";
-            label2.Size = new Size(87, 15);
+            label2.Size = new Size(47, 15);
             label2.TabIndex = 24;
-            label2.Text = "Usuário / Email";
+            label2.Text = "Usuário";
             // 
             // txbSenha
             // 

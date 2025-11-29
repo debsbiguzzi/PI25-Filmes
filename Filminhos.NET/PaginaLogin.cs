@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DotNetEnv;
 
 namespace Filminhos.NET
 {
@@ -24,8 +25,19 @@ namespace Filminhos.NET
         private void btnEntrar_Click(object sender, EventArgs e)
         {
             string senha, nome;
+            string adminUser = Env.GetString("ADMIN_USER");
+            string adminPass = Env.GetString("ADMIN_PASS");
             nome = txbUsuario.Text;
             senha = txbSenha.Text;
+            
+
+            if (nome == adminUser && senha == adminPass)
+            {
+                PaginaHome telaPrincipal = new PaginaHome();
+                telaPrincipal.Show();
+                this.Hide();
+                return;
+            }
 
             if (Login.Consultar(nome, senha))
             {

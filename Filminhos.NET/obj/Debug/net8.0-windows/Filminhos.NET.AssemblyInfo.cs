@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Filminhos.NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e374f81621ebd33ebdc270562e028316a6944f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a878ed029bab585bd0da3840ff8c7a9937d84c79")]
 [assembly: System.Reflection.AssemblyProductAttribute("Filminhos.NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Filminhos.NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

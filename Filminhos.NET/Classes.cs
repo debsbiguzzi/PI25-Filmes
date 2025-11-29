@@ -32,6 +32,10 @@ namespace Filminhos.NET
 
             public bool Consultar(string nome, string senha)
             {
+                Env.Load();
+                string adminUser = Env.GetString("ADMIN_USER");
+                string adminPass = Env.GetString("ADMIN_PASS");
+                
                 Classes.AcessoBD bd = new Classes.AcessoBD();
                 MySqlConnection con = bd.getMySqlConnection();
 
