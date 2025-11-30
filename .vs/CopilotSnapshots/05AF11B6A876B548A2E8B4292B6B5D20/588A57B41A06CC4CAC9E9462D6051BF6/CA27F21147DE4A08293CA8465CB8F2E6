@@ -18,6 +18,7 @@ namespace Filminhos.NET
         public PaginaLogin()
         {
             InitializeComponent();
+            // Ensure environment variables are loaded so ADMIN_USER/ADMIN_PASS are available
             Env.Load();
         }
 
