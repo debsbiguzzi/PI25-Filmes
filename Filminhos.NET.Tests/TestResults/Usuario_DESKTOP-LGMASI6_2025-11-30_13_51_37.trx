@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9e426904-1d71-44cf-9f5d-afd65aac68b6" name="Usuario@DESKTOP-LGMASI6 2025-11-30 13:51:37" runUser="DESKTOP-LGMASI6\Usuario" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-11-30T13:51:37.6665025-03:00" queuing="2025-11-30T13:51:37.6665032-03:00" start="2025-11-30T13:51:35.7663585-03:00" finish="2025-11-30T13:51:37.6821886-03:00" />
+  <TestSettings name="default" id="ff4e01b1-e75f-4f36-b0af-096ef40b0534">
+    <Deployment runDeploymentRoot="Usuario_DESKTOP-LGMASI6_2025-11-30_13_51_37" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e93cf610-1d5a-4734-bb2f-a5509e81e23f" testId="7de2353c-01e5-951d-1025-eaa7a1909a61" testName="Filminhos.NET.Tests.UnitTest1.Test1" computerName="DESKTOP-LGMASI6" duration="00:00:00.0051354" startTime="2025-11-30T13:51:37.4400678-03:00" endTime="2025-11-30T13:51:37.4401135-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e93cf610-1d5a-4734-bb2f-a5509e81e23f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Filminhos.NET.Tests.UnitTest1.Test1" storage="c:\users\usuario\github-project\pi25-filmes\filminhos.net.tests\bin\debug\net9.0\filminhos.net.tests.dll" id="7de2353c-01e5-951d-1025-eaa7a1909a61">
+      <Execution id="e93cf610-1d5a-4734-bb2f-a5509e81e23f" />
+      <TestMethod codeBase="C:\Users\Usuario\github-project\PI25-Filmes\Filminhos.NET.Tests\bin\Debug\net9.0\Filminhos.NET.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Filminhos.NET.Tests.UnitTest1" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7de2353c-01e5-951d-1025-eaa7a1909a61" executionId="e93cf610-1d5a-4734-bb2f-a5509e81e23f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.11)&#xD;
+[xUnit.net 00:00:00.16]   Discovering: Filminhos.NET.Tests&#xD;
+[xUnit.net 00:00:00.24]   Discovered:  Filminhos.NET.Tests&#xD;
+[xUnit.net 00:00:00.24]   Starting:    Filminhos.NET.Tests&#xD;
+[xUnit.net 00:00:00.34]   Finished:    Filminhos.NET.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
