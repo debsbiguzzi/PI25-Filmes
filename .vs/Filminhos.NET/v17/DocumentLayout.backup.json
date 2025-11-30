@@ -51,8 +51,7 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAtwC4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T14:05:15.378Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -65,8 +64,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-28T14:02:39.669Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -76,7 +74,7 @@
               "RelativeDocumentMoniker": "Filminhos.NET\\PaginaLogin.cs",
               "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaLogin.cs",
               "RelativeToolTip": "Filminhos.NET\\PaginaLogin.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAIAwwEUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T15:43:35.761Z",
               "EditorCaption": ""
@@ -115,8 +113,7 @@
               "ToolTip": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\PaginaHome.cs [Design]",
               "RelativeToolTip": "Filminhos.NET\\PaginaHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T16:35:47.339Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-29T16:35:47.339Z"
             },
             {
               "$type": "Document",
