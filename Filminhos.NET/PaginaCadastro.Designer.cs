@@ -40,26 +40,27 @@
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(37, 301);
+            btnVoltar.Location = new Point(12, 298);
             btnVoltar.Margin = new Padding(3, 2, 3, 2);
             btnVoltar.Name = "btnVoltar";
             btnVoltar.Size = new Size(82, 22);
-            btnVoltar.TabIndex = 31;
+            btnVoltar.TabIndex = 4;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = true;
+            btnVoltar.Click += btnVoltar_Click_1;
             // 
             // txbNome
             // 
-            txbNome.Location = new Point(434, 116);
+            txbNome.Location = new Point(218, 130);
             txbNome.Margin = new Padding(3, 2, 3, 2);
             txbNome.Name = "txbNome";
             txbNome.Size = new Size(110, 23);
-            txbNome.TabIndex = 30;
+            txbNome.TabIndex = 1;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(434, 99);
+            label4.Location = new Point(218, 113);
             label4.Name = "label4";
             label4.Size = new Size(98, 15);
             label4.TabIndex = 29;
@@ -68,20 +69,19 @@
             // lblMsg
             // 
             lblMsg.AutoSize = true;
-            lblMsg.Location = new Point(434, 207);
+            lblMsg.Location = new Point(218, 254);
             lblMsg.Name = "lblMsg";
-            lblMsg.Size = new Size(16, 15);
+            lblMsg.Size = new Size(0, 15);
             lblMsg.TabIndex = 28;
-            lblMsg.Text = "...";
             lblMsg.TextAlign = ContentAlignment.TopCenter;
             // 
             // btnCadastrar
             // 
-            btnCadastrar.Location = new Point(448, 183);
+            btnCadastrar.Location = new Point(232, 197);
             btnCadastrar.Margin = new Padding(3, 2, 3, 2);
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(82, 22);
-            btnCadastrar.TabIndex = 27;
+            btnCadastrar.TabIndex = 3;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
             btnCadastrar.Click += btnCadastrar_Click;
@@ -89,7 +89,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(434, 141);
+            label3.Location = new Point(218, 155);
             label3.Name = "label3";
             label3.Size = new Size(39, 15);
             label3.TabIndex = 26;
@@ -97,17 +97,17 @@
             // 
             // txbSenha
             // 
-            txbSenha.Location = new Point(434, 158);
+            txbSenha.Location = new Point(218, 172);
             txbSenha.Margin = new Padding(3, 2, 3, 2);
             txbSenha.Name = "txbSenha";
             txbSenha.Size = new Size(110, 23);
-            txbSenha.TabIndex = 23;
+            txbSenha.TabIndex = 2;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(315, 16);
+            label1.Location = new Point(121, 72);
             label1.Name = "label1";
             label1.Size = new Size(325, 26);
             label1.TabIndex = 22;
@@ -118,7 +118,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(973, 412);
+            ClientSize = new Size(559, 331);
             Controls.Add(btnVoltar);
             Controls.Add(txbNome);
             Controls.Add(label4);
@@ -129,7 +129,7 @@
             Controls.Add(label1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "PaginaCadastro";
-            Text = "Form1";
+            Text = "CADASTRO";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -142,8 +142,6 @@
         private Label lblMsg;
         private Button btnCadastrar;
         private Label label3;
-        private TextBox txbUsuario;
-        private Label label2;
         private TextBox txbSenha;
         private Label label1;
     }

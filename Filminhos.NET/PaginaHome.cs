@@ -17,6 +17,7 @@ namespace Filminhos.NET
 {
     public partial class PaginaHome : Form
     {
+        // Define se o usuario é admin ou nao
         private readonly bool isAdmin;
 
         public void CarregarPoster(string link)
@@ -80,7 +81,7 @@ namespace Filminhos.NET
         public void IniciarCbxFiltro()
         {
             cbFiltroGenero.Items.Clear();
-            
+
             List<string> generos = BD.getGeneros();
 
             cbFiltroGenero.Items.Add("Generos");
@@ -98,23 +99,22 @@ namespace Filminhos.NET
 
         ConexaoBD BD = new ConexaoBD();
 
-        // Updated constructor: pass isAdmin flag (default false so existing code still works)
+        //Construtor da pagina home (aceita parametro isAdmin para definir se o usuario é admin ou nao)
         public PaginaHome(bool isAdmin = false)
         {
             InitializeComponent();
             this.isAdmin = isAdmin;
 
-            // Configure UI based on role before loading data (so buttons start disabled if not admin)
+            // Configura UI baseado no tipo de usuário
             ConfigureAdminControls();
 
             iniciarGrid();
             IniciarCbxFiltro();
         }
 
-        // Enable/disable admin-only controls
         private void ConfigureAdminControls()
         {
-            // If you prefer to hide them replace Enabled with Visible
+            //Abilitar botões para apenas adimin ter acesso a eles
             btnExcluir.Enabled = isAdmin;
             btnNovo.Enabled = isAdmin;
             btnEditar.Enabled = isAdmin;
@@ -144,50 +144,67 @@ namespace Filminhos.NET
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-            FormCadastroFilme form = new FormCadastroFilme();
-
-            if (dataGridView1.SelectedRows.Count > 0)
+            if (dataGridView1.SelectedRows.Count == 0)
             {
-               DataGridViewRow linha = dataGridView1.SelectedRows[0];
+                MessageBox.Show("Selecione um filme na tabela para excluir.");
+                return;
+            }
 
-                form.codigo = Convert.ToInt32(linha.Cells[0].Value);
-                string nomeFilme = linha.Cells[1].Value.ToString();
+            var linha = dataGridView1.SelectedRows[0];
 
-                DialogResult confirm = MessageBox.Show("Tem certeza que deseja excluir " + nomeFilme + "?", "Excluir", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            //Caso a pessoa selecione uma linha em branco
+            if (linha.IsNewRow || linha.DataBoundItem == null)
+            {
+                MessageBox.Show("Selecione uma linha válida para excluir.");
+                return;
+            }
 
-                if (confirm == DialogResult.Yes)
-                {
-                    if (BD.ExcluirFilme(form.codigo))
-                    {
-                        MessageBox.Show("Filme excluído com sucesso!");
-                        iniciarGrid();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Erro ao excluir.");
-                    }
-                }
+            object codigoObj = null;
+
+            // Tenta pegar o código pela coluna "codigo", se não existir, tenta pela primeira coluna
+            if (dataGridView1.Columns.Contains("codigo"))
+                codigoObj = linha.Cells["codigo"].Value;
+            else if (linha.Cells.Count > 0)
+                codigoObj = linha.Cells[0].Value;
+
+            if (codigoObj == null || !int.TryParse(codigoObj.ToString(), out int codigo))
+            {
+                MessageBox.Show("Não foi possível determinar o código do filme.");
+                return;
+            }
+
+            // Pega o título do filme para a mensagem de confirmação
+            object tituloObj = dataGridView1.Columns.Contains("Titulo") ? linha.Cells["Titulo"].Value : (linha.Cells.Count > 1 ? linha.Cells[1].Value : null);
+
+            string nomeFilme = tituloObj?.ToString() ?? "(sem título)";
+
+            var confirm = MessageBox.Show($"Tem certeza que deseja excluir {nomeFilme}?", "Excluir", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (confirm != DialogResult.Yes) return;
+
+            if (BD.ExcluirFilme(codigo))
+            {
+                MessageBox.Show("Filme excluído com sucesso!");
+                iniciarGrid();
             }
             else
             {
-                MessageBox.Show("Selecione um filme na tabela para excluir.");
+                MessageBox.Show("Erro ao excluir.");
             }
         }
 
 
         private void btnNovo_Click(object sender, EventArgs e)
         {
-            
+
             FormCadastroFilme form = new FormCadastroFilme();
             form.lblTituloTela.Text = "Cadastrar Novo Filme";
             form.codigo = -1; // Garante que é novo
 
-            // Abre a janela como um diálogo (trava a janela de trás)
             form.ShowDialog();
 
             // Quando a janela fechar, atualiza o grid para mostrar o novo filme
             iniciarGrid();
-            
+
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
@@ -210,9 +227,6 @@ namespace Filminhos.NET
                 form.numBilheteria.Text = linha.Cells["Bilheteria"].Value.ToString();
                 form.numAvaliacao.Text = linha.Cells["Avaliação"].Value.ToString();
 
-                // Nota: Para o gênero aparecer selecionado, você precisaria trazer o id_genero 
-                // no Grid (oculto) e fazer: form.cbGenero.SelectedValue = linha.Cells["id_gen"].Value;
-
                 form.ShowDialog();
 
                 // Atualiza o grid ao voltar
@@ -222,6 +236,11 @@ namespace Filminhos.NET
             {
                 MessageBox.Show("Selecione um filme para editar.");
             }
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

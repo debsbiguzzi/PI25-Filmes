@@ -40,6 +40,7 @@ namespace Filminhos.NET
             btnNovo = new Button();
             btnEditar = new Button();
             btnExcluir = new Button();
+            btnFechar = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxPoster).BeginInit();
             SuspendLayout();
@@ -76,9 +77,12 @@ namespace Filminhos.NET
             // 
             // dataGridView1
             // 
-            dataGridView1.BackgroundColor = SystemColors.AppWorkspace;
+            dataGridView1.AllowUserToResizeColumns = false;
+            dataGridView1.AllowUserToResizeRows = false;
+            dataGridView1.BackgroundColor = SystemColors.ActiveCaption;
             dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.GridColor = SystemColors.InactiveCaption;
             dataGridView1.Location = new Point(291, 76);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
@@ -150,12 +154,23 @@ namespace Filminhos.NET
             btnExcluir.UseVisualStyleBackColor = true;
             btnExcluir.Click += btnExcluir_Click;
             // 
+            // btnFechar
+            // 
+            btnFechar.Location = new Point(938, 37);
+            btnFechar.Name = "btnFechar";
+            btnFechar.Size = new Size(75, 23);
+            btnFechar.TabIndex = 75;
+            btnFechar.Text = "Fechar";
+            btnFechar.UseVisualStyleBackColor = true;
+            btnFechar.Click += btnFechar_Click;
+            // 
             // PaginaHome
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1026, 478);
+            Controls.Add(btnFechar);
             Controls.Add(btnExcluir);
             Controls.Add(btnEditar);
             Controls.Add(btnNovo);
@@ -188,5 +203,6 @@ namespace Filminhos.NET
         private Button btnNovo;
         private Button btnEditar;
         private Button btnExcluir;
+        private Button btnFechar;
     }
 }

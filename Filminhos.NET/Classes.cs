@@ -10,7 +10,7 @@ using DotNetEnv;
 
 namespace Filminhos.NET
 {
-    // Simple user model
+    //Transportador de dados do usuario
     public class Usuario
     {
         public int Id { get; init; }
@@ -18,7 +18,7 @@ namespace Filminhos.NET
         public bool IsAdmin { get; init; }
     }
 
-    // Session holder for the currently logged user
+    //Guarda o usuario logado na sessao
     public static class Sessao
     {
         public static Usuario? UsuarioAtual { get; set; }
@@ -28,7 +28,6 @@ namespace Filminhos.NET
     {
         public class Sistema
         {
-            // Keep existing behavior for compatibility
             public bool CadastrarUsuario(string nome, string senha)
             {
                 Classes.AcessoBD bd = new Classes.AcessoBD();
@@ -44,14 +43,14 @@ namespace Filminhos.NET
                 return true;
             }
 
-            // Backward-compatible boolean check
             public bool Consultar(string nome, string senha)
             {
                 var usuario = AutenticarUsuario(nome, senha);
                 return usuario != null;
             }
 
-            // New: returns a Usuario (and sets Sessao.UsuarioAtual) or null on failure
+            //Recebe um nome e senha, consulta no banco de dados e retorna um objeto Usuario se encontrado
+            //Preenche a sessao com o usuario atual
             public Usuario? AutenticarUsuario(string nome, string senha)
             {
                 Env.Load();
@@ -74,9 +73,8 @@ namespace Filminhos.NET
                     int id = Convert.ToInt32(dr["codigo"]);
                     string foundName = dr["nome"].ToString() ?? string.Empty;
 
-                    // Determine admin: either matches ENV admin credentials or some DB role (not present)
-                    bool isAdmin = (string.Equals(foundName, adminUser, StringComparison.OrdinalIgnoreCase)
-                                    && string.Equals(senha, adminPass, StringComparison.Ordinal));
+                    //Determina se o usuario é admin ou algum usuario comum (banco de dados)
+                    bool isAdmin = (string.Equals(foundName, adminUser, StringComparison.OrdinalIgnoreCase) && string.Equals(senha, adminPass, StringComparison.Ordinal));
 
                     var usuario = new Usuario { Id = id, Nome = foundName, IsAdmin = isAdmin };
 
@@ -85,7 +83,7 @@ namespace Filminhos.NET
                     return usuario;
                 }
 
-                // If not found, make sure session is cleared
+                //Caso não encontre, limpa a sessao e devolve null
                 Sessao.UsuarioAtual = null;
                 return null;
             }
@@ -112,17 +110,16 @@ namespace Filminhos.NET
 
             public void OpenConexaoBD(string CString)
             {
-                //connection = new MySqlConnection(CString);
                 try
                 {
                     if (connection.State != System.Data.ConnectionState.Open)
                     {
                         connection.Open();
                     }
-                    //connection.Open();
+
                     flagConexao = true;
-                    //MessageBox.Show("CONEXAO ESTABELECIDA COM SUCESSO");
                 }
+
                 catch (Exception ex)
                 {
                     flagConexao = false;
@@ -135,7 +132,6 @@ namespace Filminhos.NET
                 if (flagConexao == true)
                 {
                     connection.Close();
-                    //MessageBox.Show("CONEXAO FECHADA COM SUCESSO");
                 }
             }
         };
@@ -159,7 +155,6 @@ namespace Filminhos.NET
 
         public DataTable GetAllItems()
         {
-            //MySqlConnection connection = getMySqlConnection();
 
             if (connection.State != System.Data.ConnectionState.Open)
             {
@@ -209,7 +204,6 @@ namespace Filminhos.NET
             }
             catch (Exception ex)
             {
-                //MessageBox.Show("ERRO: Pesquisa Invalida " + ex.Message);
                 return new List<string>();
             }
             finally
@@ -226,7 +220,6 @@ namespace Filminhos.NET
             {
                 connection.Open();
             }
-            //MySqlConnection connection = getMySQLConnection();
             setQuery("SP_PESQUISAR_FILMES");
 
             using (MySqlCommand command = new MySqlCommand(query, connection))
@@ -352,14 +345,11 @@ namespace Filminhos.NET
             }
         }
 
-
-
         public DataTable GetGenerosParaCombo()
         {
             DataTable dt = new DataTable();
             if (connection.State != System.Data.ConnectionState.Open) connection.Open();
 
-            // Supondo que sua tabela genero tenha colunas: id, genero
             setQuery("SELECT codigo, genero FROM genero");
 
             try
@@ -373,7 +363,5 @@ namespace Filminhos.NET
             catch { return null; }
             finally { CloseConexaoBD(); }
         }
-
-        //fim da classe ConexaoBD
     }
 }

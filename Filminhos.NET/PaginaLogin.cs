@@ -29,7 +29,7 @@ namespace Filminhos.NET
             nome = txbUsuario.Text;
             senha = txbSenha.Text;
             
-            // Admin via .env
+            //Admin via .env
             if (nome == adminUser && senha == adminPass)
             {
                 PaginaHome telaPrincipal = new PaginaHome(isAdmin: true);
@@ -38,10 +38,9 @@ namespace Filminhos.NET
                 return;
             }
 
-            // Normal user via DB
+            //Usuario normal via DB
             if (Login.Consultar(nome, senha))
             {
-                // normal user (not admin)
                 PaginaHome telaPrincipal = new PaginaHome(isAdmin: false);
                 telaPrincipal.Show();
                 this.Hide();

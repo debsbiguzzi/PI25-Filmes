@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PwfCjo1iiqE=",
+  "dgSpecHash": "IKrf8ERrFCs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\github-project\\PI25-Filmes\\Filminhos.NET\\Filminhos.NET.csproj",
+  "projectFilePath": "C:\\ProjetoIntegrador\\PI25-Filmes-main\\Filminhos.NET\\Filminhos.NET.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",
