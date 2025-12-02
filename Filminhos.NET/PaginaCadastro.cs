@@ -1,5 +1,4 @@
-﻿//using Filminhos.NET;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -46,8 +45,9 @@ namespace Filminhos.NET
             }
         }
 
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private void btnVoltar_Click_1(object sender, EventArgs e)
         {
+            //Volta para a tela de login
             PaginaLogin telaLogin = new PaginaLogin();
             telaLogin.Show();
             this.Close();
